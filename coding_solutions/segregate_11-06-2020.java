@@ -1,3 +1,6 @@
+//Write a Java Program to Segregate Even and Odd numbers
+
+
 import java.io.*;
 import java.util.Scanner;
 public class oddeveninarray
