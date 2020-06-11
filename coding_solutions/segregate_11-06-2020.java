@@ -1,6 +1,14 @@
-//Write a Java Program to Segregate Even and Odd numbers
-
-
+/*Write a Java Program to Segregate Even and Odd numbers
+Given an array A[],
+write a function that segregates even and odd numbers. 
+The functions should put all even numbers first, and then odd numbers.
+Example:Input = {12, 34, 45, 9, 8, 90, 3}Output = {12, 34, 8, 90, 45, 9, 3}
+Algorithm: segregateEvenOdd()
+1.Initialize two index variables left and right:left = 0, right = size -1
+2.Keep incrementing left index until we see an odd number.
+3.Keep decrementing right index until we see an even number.
+4.If lef < right then swap arr[left] and arr[right]
+*/
 import java.io.*;
 import java.util.Scanner;
 public class oddeveninarray
