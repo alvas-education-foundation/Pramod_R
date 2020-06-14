@@ -1,4 +1,4 @@
-//Given two positive integer start and end. The task is to write a Python program to print all Prime numbers in an Interval
+#Given two positive integer start and end. The task is to write a Python program to print all Prime numbers in an Interval
 
 start = 11
 end = 25
